@@ -20,7 +20,7 @@ TechLift is designed to make online learning more interactive and user-friendly.
 - Secure **authentication** with Google & email/password via NextAuth.
 - A protected **dashboard** for managing courses, bookings, and profiles.
 - **MongoDB integration** for storing and retrieving data.
-- Advanced features like pagination, search, SweetAlert modals, and SEO-optimized pages.
+- Advanced features like SweetAlert modals, and SEO-optimized pages.
 
 ---
 
