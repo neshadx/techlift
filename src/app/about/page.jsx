@@ -94,7 +94,7 @@ const AboutPage = () => {
         <div className="relative w-full h-[350px] rounded-xl overflow-hidden shadow-2xl border border-gray-200">
           <Image
             src="https://images.pexels.com/photos/1181395/pexels-photo-1181395.jpeg"
-            alt="About LearnEdge"
+            alt="About TechLift"
             fill
             unoptimized
             className="object-cover"

@@ -100,7 +100,7 @@ export async function generateMetadata() {
       url: seo.canonical,
       images: [{ url: seo.ogImage, width: 1200, height: 630 }],
       type: "website",
-      siteName: "LearnEdge",
+      siteName: "TechLift",
     },
     twitter: {
       card: "summary_large_image",

@@ -54,7 +54,7 @@
 
 import { NextResponse } from "next/server";
 import bcrypt from "bcryptjs";
-import clientPromise from "@/lib/mongodb"; // ✅ Correct import
+import clientPromise from "@/lib/mongodb"; //  Correct import
 
 export async function POST(req) {
   try {
@@ -89,7 +89,7 @@ export async function POST(req) {
       );
     }
 
-    // ✅ Return user object for NextAuth JWT
+    //  Return user object for NextAuth JWT
     return NextResponse.json({
       id: user._id.toString(),
       name: user.name,

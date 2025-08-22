@@ -5,14 +5,13 @@ import Link from "next/link";
 import { useEffect } from "react";
 
 export default function NotFoundClient() {
-  // 404 খোলা থাকলে body scroll বন্ধ, ফিরে গেলে আগেরটা ফেরত
+  //  body scroll 
   useEffect(() => {
     const prev = document.body.style.overflow;
     document.body.style.overflow = "hidden";
     return () => (document.body.style.overflow = prev);
   }, []);
 
-  // পুরো ভিউপোর্ট ঢেকে দেবে → নিচের Navbar/Footer দেখা যাবে না
   return (
     <div className="fixed inset-0 z-[9999] bg-white flex items-center justify-center p-6">
       <div className="max-w-xl w-full rounded-2xl border border-emerald-200 bg-emerald-50 p-8 shadow-sm text-center">

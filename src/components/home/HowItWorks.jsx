@@ -28,7 +28,7 @@ const HowItWorks = () => {
           How <span className="text-green-600">It Works</span>
         </h2>
         <p className="text-gray-600 max-w-2xl mx-auto mb-12">
-          Learning with LearnEdge is simple, intuitive, and effective.
+          Learning with TechLift is simple, intuitive, and effective.
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">

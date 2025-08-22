@@ -22,7 +22,7 @@ const testimonials = [
     role: "Student, Rajshahi University",
     rating: 5,
     comment:
-      "I was struggling with coding until I joined LearnEdge. Now I’m confident with JavaScript and React.",
+      "I was struggling with coding until I joined TechLift. Now I’m confident with JavaScript and React.",
     avatar: "https://i.pravatar.cc/100?img=12",
   },
 ];
@@ -35,7 +35,7 @@ const Testimonials = () => {
           What <span className="text-green-600">Students Say</span>
         </h2>
         <p className="text-gray-600 max-w-2xl mx-auto mb-12">
-          See how LearnEdge has impacted the lives of learners across Bangladesh and beyond.
+          See how TechLift has impacted the lives of learners across Bangladesh and beyond.
         </p>
 
         <div className="grid gap-8 md:grid-cols-3">

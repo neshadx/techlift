@@ -75,14 +75,14 @@ async function safeFetchJson(url) {
 
 /** ---------- fallbacks ---------- */
 const FALLBACK_SITE = {
-  title: "LearnEdge",
+  title: "TechLift",
   description: "Modern learning platform.",
   canonical: "/",
   ogImage: "/og/learnedge-og.jpg",
 };
 
 const FALLBACK_COURSE = (id = "") => ({
-  title: `Course — LearnEdge`,
+  title: `Course — TechLift`,
   description: "Explore our industry‑ready courses.",
   canonical: `/courses/${id || ""}`,
   ogImage: "/og/learnedge-og.jpg",

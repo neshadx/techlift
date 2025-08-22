@@ -97,7 +97,7 @@ const handler = NextAuth({
         try {
           const { email, password } = credentials;
 
-          // ✅ Get DB (not client)
+          //  Get DB (not client)
           const db = await connectDB();
           const user = await db.collection("users").findOne({ email });
 

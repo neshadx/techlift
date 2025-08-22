@@ -15,12 +15,12 @@ const FAQs = () => {
           Frequently Asked <span className="text-green-600">Questions</span>
         </h2>
         <p className="text-gray-600 mb-12 max-w-2xl mx-auto">
-          Have questions? We’ve got answers! Learn more about how LearnEdge works and what you can expect.
+          Have questions? We’ve got answers! Learn more about how TechLift works and what you can expect.
         </p>
 
         <Accordion type="single" collapsible className="text-left space-y-2">
           <AccordionItem value="q1">
-            <AccordionTrigger>Is LearnEdge free to use?</AccordionTrigger>
+            <AccordionTrigger>Is TechLift free to use?</AccordionTrigger>
             <AccordionContent>
               Yes, many courses are completely free. However, we also offer premium content for those seeking advanced material or certification.
             </AccordionContent>
@@ -36,7 +36,7 @@ const FAQs = () => {
           <AccordionItem value="q3">
             <AccordionTrigger>Can I access courses on mobile?</AccordionTrigger>
             <AccordionContent>
-              Absolutely! LearnEdge is mobile-friendly and accessible from any device with internet access.
+              Absolutely! TechLift is mobile-friendly and accessible from any device with internet access.
             </AccordionContent>
           </AccordionItem>
 
