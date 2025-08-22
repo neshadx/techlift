@@ -7,7 +7,7 @@ This project fulfills all requirements from the **Next.js 15 Project Task** assi
 ---
 
 ## 🌐 Live Site
-[View Live Project](https://learnedge-three.vercel.app/)  
+[View Live Project](https://techlift-six.vercel.app/)  
 
 
 
@@ -54,7 +54,7 @@ TechLift is designed to make online learning more interactive and user-friendly.
   - My Bookings (view/cancel bookings)  
   - Profile (update name & photo, email read-only)  
 - **API Routes** for courses, bookings, and user profiles.
-- **Advanced**: Pagination, search, SweetAlert confirmation, SEO meta tags.
+- **Advanced**: SweetAlert confirmation, SEO meta tags.
 
 ---
 
