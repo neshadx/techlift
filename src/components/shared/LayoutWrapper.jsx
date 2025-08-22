@@ -1,25 +1,3 @@
-// "use client";
-
-// import { usePathname } from "next/navigation";
-// import Navbar from "./Navbar";
-// import Footer from "./Footer";
-
-// const LayoutWrapper = ({ children }) => {
-//   const pathname = usePathname();
-
-
-//   const isDashboard = pathname.startsWith("/dashboard");
-
-//   return (
-//     <>
-//       {!isDashboard && <Navbar />}
-//       <main>{children}</main>
-//       {!isDashboard && <Footer />}
-//     </>
-//   );
-// };
-
-// export default LayoutWrapper;
 
 
 "use client";
@@ -31,7 +9,7 @@ import Footer from "./Footer";
 const LayoutWrapper = ({ children }) => {
   const pathname = usePathname();
 
-  // ✅ Hide Navbar/Footer on dashboard routes
+  //  Hide Navbar/Footer on dashboard routes
   const isDashboard = pathname.startsWith("/dashboard");
 
   return (

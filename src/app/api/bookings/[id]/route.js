@@ -2,7 +2,7 @@ import { NextResponse } from "next/server";
 import { connectDB } from "@/lib/mongodb";
 import { ObjectId } from "mongodb";
 
-// ✅ PATCH: Approve a booking
+//  PATCH: Approve a booking
 export async function PATCH(req, { params }) {
   try {
     const db = await connectDB();
@@ -28,7 +28,7 @@ export async function PATCH(req, { params }) {
   }
 }
 
-// ✅ DELETE: Cancel/Delete a booking
+//  DELETE: Cancel/Delete a booking
 export async function DELETE(req, { params }) {
   try {
     const db = await connectDB();
